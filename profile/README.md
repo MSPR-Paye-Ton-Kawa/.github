@@ -1,12 +1,25 @@
-## Hi there 👋
+# PS-2024-MSPR-Data
 
-<!--
+## 📚 Projet Scolaire | MSPR
 
-**Here are some ideas to get you started:**
+Juin-Septembre 2024
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+Groupe : Juliette, Flavien, Yasmine & Colas
+
+### 📌 Consignes du projet : 
+
+(à remplir)
+
+
+### 🐱 Notre projet :
+
+(à remplir)
+
+
+### 💻 Applications et langages utilisés :
+
+(à remplir)
+
+
+## 🌸 Merci !
+© J-IFT
