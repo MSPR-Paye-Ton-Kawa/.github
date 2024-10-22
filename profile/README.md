@@ -27,8 +27,6 @@ Adopter une approche Agile, avec des livraisons itératives des fonctionnalités
 
 ### 🐱 Notre projet :
 
-(à remplir)
-
 ## Prérequis
 
 - Docker doit être installé et en cours d'exécution sur votre machine.
@@ -50,13 +48,28 @@ Adopter une approche Agile, avec des livraisons itératives des fonctionnalités
 
 ## Lancer les API
 
-1. **Lancer toutes les API en même temps** :
+Option 1. **Lancer toutes les API une à une** :
    - Assurez-vous que tous les projets (gateway, produit, client et commande) sont configurés pour utiliser Docker.
    - Naviguez vers le répertoire de chaque projet et exécutez la commande suivante pour construire et démarrer les conteneurs Docker :
      ```sh
      docker-compose up --build
      ```
    - Répétez cette commande pour chaque projet (gateway, produit, client et commande).
+
+Option 2.  **Lancer toutes les API en même temps** :
+
+   Pour lancer tous les services en même temps, suivez ces étapes :
+   
+   1. **Naviguez vers le répertoire `api_gateway`** :
+      - Ouvrez un terminal ou une invite de commande.
+      - Naviguez vers le répertoire `api_gateway` de votre projet.
+   
+   2. **Exécutez le script `start.sh`** :
+      - Tapez la commande suivante dans le terminal :
+        ```sh
+        ./start.sh
+        ```
+      - Ce script tirera les dernières images Docker de chaque API depuis Docker Hub et démarrera tous les services en utilisant Docker Compose.
 
 ## Consommer les API
 
