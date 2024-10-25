@@ -1,8 +1,8 @@
-# PS-2024-MSPR-Data
+# PS-2024-MSPR-Paye-Ton-Kawa
 
 ## 📚 Projet Scolaire | MSPR
 
-Juin-Septembre 2024
+Juin-Octobre 2024
 
 Groupe : Juliette, Flavien, Yasmine & Colas
 
@@ -19,6 +19,8 @@ API Clients : Gestion des informations clients, authentification et autorisation
 API Produits : Gestion des produits, catalogues et inventaires.
 
 API Commandes : Gestion des commandes, suivi des livraisons et facturation.
+
+APP WebShop : Permet de gérer les clients, produits et commandes au même endroit avec une interface user-friendly.
 
 Méthodologie : 
 
@@ -101,7 +103,7 @@ Une fois que toutes les API sont en cours d'exécution, vous pouvez les consomme
 
 ### 💻 Applications et langages utilisés :
 
-- C#, Sqlite
+- C#, Blazor, Sqlite
 - Visual Studio
 
 
