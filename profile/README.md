@@ -91,6 +91,30 @@ Une fois que toutes les API sont en cours d'exécution, vous pouvez les consomme
 2. **Importer la collection Postman** :
    - Importez la collection Postman fournie avec ce projet.
    - Utilisez les requêtes de la collection pour interagir avec les API.
+  
+## Prometheus x Grafana
+
+1. Prometheus : Installer le LTS https://prometheus.io/download/
+
+Décompresse le fichier ZIP que tu as téléchargé dans un dossier de ton choix. Par exemple, tu peux le placer dans C:\Prometheus.
+
+Dans le dossier où tu as extrait Prometheus, tu trouveras un fichier prometheus.yml. Remplace-le par celui que j'ai envoyé sur Discord.
+
+Lance Prometheus avec la commande suivante : prometheus --config.file=prometheus.yml
+
+Ouvre un navigateur web et va à l'adresse suivante : http://localhost:9090. C'est l'interface utilisateur de Prometheus où tu peux voir les métriques collectées.
+
+Requête conseillée : http_requests_received_total
+
+2. Grafana : Installer https://grafana.com/grafana/download?platform=windows et suis les instructions pour l'installation. Une fois installé, tu peux le lancer.
+
+Accède à Grafana via http://localhost:3000 (par défaut). Connecte-toi avec les identifiants par défaut (admin/admin).
+
+Va dans Connections > Data Sources dans le panneau latéral. Ajoute une nouvelle source de données de type Prometheus. Dans le champ URL, entre http://localhost:9090, puis clique sur Save & Test pour vérifier la connexion.
+
+Retourne dans l'accueil de Grafana et clique sur Create + > Dashboard. Ajoute un panel en cliquant sur Add new panel. Sélectionne Prometheus comme source de données, et utilise les requêtes PromQL (langage de requête de Prometheus) pour afficher les métriques de ton API.
+
+Requête conseillée : http_requests_received_total job api-produits
 
 ## Structure du Projet
 
